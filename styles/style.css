@@ -84,7 +84,7 @@ header nav li a:hover {
 
 #contact_me {
     position: absolute;
-    left: 44.5%;
+    left: 44%;
     top: 75%;
     background-color: rgba(128, 128, 128, 0.6);
     font-size: 15px;
@@ -101,17 +101,6 @@ header nav li a:hover {
     line-height: 1em;
     margin: 10px 0;
 }
-
-/*#contact_me:hover 
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}*/
 
 #contact_me:hover,
 #contact_me:focus,
@@ -135,12 +124,14 @@ header nav li a:hover {
     border-right: 0.2em solid black;
     border-bottom: 0.2em solid black;
     transform: rotate(45deg);
-
-    
-    
 }
 
-
+.arrow_down:hover,
+.arrow_down:focus,
+.arrow_down:active 
+.arrow_down:rotate(45deg){
+    transform: scale(1.1);
+}
 @media screen and (min-width: 800px) {
     .social {
         visibility: visible;
@@ -155,7 +146,6 @@ header nav li a:hover {
         margin-right: 20%;
     }
 }
-
 
 
 .main_info {
@@ -178,11 +168,13 @@ header nav li a:hover {
 }
 
 #main_photo {
-    margin-left: 38%;
+    margin:0 auto;
+    display: block;
+    opacity: 0.8;
 }
 
 #learn_more {
-    left: 43%;
+    width: 200px;
     background-color: transparent;
     font-size: 13px;
     color: black;
@@ -193,28 +185,22 @@ header nav li a:hover {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;
-    padding: 1em 1.25em;
-    display: inline-block;
+    padding: 1em 0.8em;
+    display: block;
     line-height: 1em;
-    margin: 10px 0;
+    margin:  30px auto 30px auto;
+    text-align: center;
 }
-
-/*#learn_more:hover {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}*/
 
 #learn_more:hover,
 #learn_more:focus,
-#learn_more:active {
+#learn_more:active
+{
     transform: scale(1.1);
 }
+
+
+
 
 footer {
     background-color: #101010;
@@ -228,19 +214,12 @@ footer {
     height: 80px;
 }
 
-footer .footer_content {
-    padding: 0 10%;
-    height: 80px;
-    float: left;
-    width: 100%;
-    position: relative;
-}
-
 footer nav {
     display: block;
     padding-top: 20px;
-    width: auto;
-    position: static;
+    width: 700px;
+    margin: 0 auto;
+    /*position: static;*/
 }
 
 footer li {
@@ -256,7 +235,6 @@ footer nav li a {
     font-weight: bold;
     letter-spacing: 2px;
     font-family: 'Open Sans', sans-serif;
-    
 }
 
 footer nav li a:hover {
