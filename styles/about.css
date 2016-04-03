@@ -1,0 +1,28 @@
+body {
+    background-color: #FFFFCC;
+}
+
+.about img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.about h1 {
+    position: absolute; 
+    left: 125px; 
+    top: 125px;
+    color: black;
+}
+
+.first_line {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.second_line {
+    margin: 0 auto;
+    text-align: center;
+}
+    

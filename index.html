@@ -4,6 +4,10 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <script src='//code.jquery.com/jquery-2.2.2.min.js'></script>
+    <script type="text/javascript" src="scripts/javascript.js"></script>
+    <script type="text/javascript" src="scripts/script_common.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
@@ -12,44 +16,18 @@
 </head>
 
 <body>
-    <header>
-        <div class="row">
-            <div class="header_content">
-                <a id="logo" href="index.html"><img src="images/logo.png" width="30" alt="List Picture"></a>
-
-                <ul class="social">
-                    <li>
-                        <a href="https://facebook.com/profile.php?id=100011195025192&ref=bookmarks" target="_blank"><img src="images/facebook.png" width="30" alt="List Picture"></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/KhrystynaBarchyshyn" target="_blank"><img src="images/github.png" width="30" alt="List Picture"></a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank"><img src="images/linkedin.png" width="30" alt="List Picture"></a>
-                    </li>
-                </ul>
-
-                <nav>
-                    <ul>
-                        <li><a href="about.html">about</a></li>
-                        <li><a href="professionalskills.html">professional skills</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+    {{header}}
     <main>
         <div class="home">
             <img src="images/home_page1.jpg" alt="List Picture">
-            <h1></h1>
+            <h1>I am Web Developer</h1>
             <a id="contact_me" href="contact.html">Contact me</a>
         </div>
         <section class="main_info">
             <h2>Short Story about Myself</h2>
-            <div class="arrow_down" onclick="window.location.href='#main_photo';">
+            <div class="arrow_down" onclick="scrollToPhoto();">
             </div>
-            <p>London is the capital of Great Britain, its political, economic, and commercial centre. It is one of the largest cities in the world and the largest city in Europe. Its population is about 8 million. London is divided into several parts: the
+            <p id="short_story">London is the capital of Great Britain, its political, economic, and commercial centre. It is one of the largest cities in the world and the largest city in Europe. Its population is about 8 million. London is divided into several parts: the
                 City, Westminster, the West End, and the East End.</p>
             <section>
                 <img id="main_photo" src="images/mainphoto.jpg" alt="List Picture" width="300" height="400">
@@ -57,20 +35,7 @@
             <a id="learn_more" href="about.html">Learn More About Me</a>
         </section>
     </main>
-    <footer>
-        <!--<div class="row_footer">-->
-            <!--<div class="footer_content">-->
-                <nav>
-                    <ul>
-                        <li><a href="index.html">home</a>
-                        <li><a href="about.html">about</a></li>
-                        <li><a href="professionalskills.html">professional skills</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                    </ul>
-                </nav>
-            <!--</div>-->
-        <!--</div>-->
-    </footer>
+    {{footer}}
 </body>
 
 </html>

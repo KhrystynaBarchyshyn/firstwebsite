@@ -3,28 +3,24 @@
 
 <head>
     <meta charset="utf-8">
+    <script src='//code.jquery.com/jquery-2.2.2.min.js'></script>
+    <script type="text/javascript" src="scripts/script_common.js"></script>
+    <link rel="stylesheet" href="styles/about.css"/>
+    <link rel="stylesheet" href="styles/common.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
     <title> KhrystynaBarchyshyn</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html"><img src="images/logo.png" alt="List Picture"></a>
-            <ul type="none">
-                <li><a href="about.html">about</a></li>
-                <li><a href="professionalskills.html">professional skills</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-            <a href="https://facebook.com/profile.php?id=100011195025192&ref=bookmarks" target="_blank"><img src="images/facebook.png" alt="List Picture"></a>
-            <a href="https://github.com/KhrystynaBarchyshyn" target="_blank"><img src="images/github.png" alt="List Picture"></a>
-        </nav>
-    </header>
+    {{header}}
     <main>
-        <div>
-            <img src="images/about.jpg" alt="List Picture" width="700" height="400">
+        <div class="about">
+            <img src="images/about.jpg" alt="List Picture">
             <h1>Who I Am</h1>
         </div>
-        <div>
+        <div class="facts">
             <h2>Facts</h2>
             <p>
                 The heart of London is the City, its financial and business centre. Numerous banks, offices, and firms are situated there, including the Bank of England, the Stock Exchange, and the Old Bailey. Few people live here, but over a million people come to the
@@ -38,15 +34,15 @@
                 City to work. There are some famous ancient buildings within the City. Perhaps the most striking of them is the St. Paul's Cathedral, the greatest of English churches
             </p>
             <div>
-                <figure>
-                    <img src="#" alt="List Picture">
-                    <img src="#" alt="List Picture">
-                    <img src="#" alt="List Picture">
+                <figure class="first_line">
+                    <img src="images/skate.jpg" alt="List Picture" width="200" height="250">
+                    <img src="images/fly.jpg" alt="List Picture" width="200" height="250">
+                    <img src="images/love.jpg" alt="List Picture" width="200" height="250">
                 </figure>
-                <figure>
-                    <img src="#" alt="List Picture">
-                    <img src="#" alt="List Picture">
-                    <img src="#" alt="List Picture">
+                <figure class="second_line">
+                    <img src="images/sushi.jpg" alt="List Picture" width="200" height="250">
+                    <img src="images/cocacola.jpg" alt="List Picture" width="200" height="250">
+                    <img src="images/delicious.jpg" alt="List Picture" width="200" height="250">
                 </figure>
                 <p>
                     The heart of London is the City, its financial and business centre. Numerous banks, offices, and firms are situated there, including the Bank of England, the Stock Exchange, and the Old Bailey. Few people live here, but over a million people come to the
@@ -55,15 +51,7 @@
             </div>
             <button>Download my Resume</button>
         </div>
-        <footer>
-            <nav>
-                <ul>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="professionalskills.html">professional skills</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                </ul>
-            </nav>
-        </footer>
+        {{footer}}
     </main>
 </body>
 

@@ -4,62 +4,6 @@ body {
     margin: 0 auto;
 }
 
-header {
-    background-color: #101010;
-    height: 80px;
-    width: 100%;
-}
-
-header .row {
-    margin: 0 auto;
-    max-width: 1040px;
-    height: 80px;
-}
-
-header .header_content {
-    padding: 0 4%;
-    height: 80px;
-    float: left;
-    width: 100%;
-    position: relative;
-}
-
-header nav {
-    display: block;
-    padding-top: 20px;
-    width: auto;
-    position: static;
-    margin-right: 0;
-    float: right;
-}
-
-header li {
-    display: inline;
-}
-
-
-header nav li a {
-    margin-left: 40px;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-family: 'Open Sans', sans-serif;
-    
-}
-
-header nav li a:hover {
-    color: grey;
-}
-#logo {
-    float: left;
-    display:block;
-    margin-right: 10px;
-    margin-top: 25px;
-    padding-left: 1%;
-}
-
 
 .home {
     position: relative;
@@ -79,7 +23,6 @@ header nav li a:hover {
     left: 125px; 
     top: 125px;
     color: black;
-    
 }
 
 #contact_me {
@@ -107,15 +50,6 @@ header nav li a:hover {
 #contact_me:active {
     transform: scale(1.1);
 }
-.social {
-    visibility: hidden;
-    float:right;
-    display: block;
-    width: 0;
-    padding-right: 1%;
-    
-}
-
 
 .arrow_down {
     margin: 0 auto;
@@ -132,21 +66,6 @@ header nav li a:hover {
 .arrow_down:rotate(45deg){
     transform: scale(1.1);
 }
-@media screen and (min-width: 800px) {
-    .social {
-        visibility: visible;
-        float: right;
-        list-style: none;
-        margin: 25px 0 0 0;
-        display:block;
-        width: auto;
-    }
-
-    header nav {
-        margin-right: 20%;
-    }
-}
-
 
 .main_info {
     position: relative;
@@ -202,41 +121,3 @@ header nav li a:hover {
 
 
 
-footer {
-    background-color: #101010;
-    height: 80px;
-    width: 100%;
-}
-
-.row_footer {
-    margin: 0 auto;
-    max-width: 1040px;
-    height: 80px;
-}
-
-footer nav {
-    display: block;
-    padding-top: 20px;
-    width: 700px;
-    margin: 0 auto;
-    /*position: static;*/
-}
-
-footer li {
-    display: inline;
-}
-
-
-footer nav li a {
-    margin-left: 60px;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-footer nav li a:hover {
-    color: grey;
-}
