@@ -2,27 +2,26 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <script src='//code.jquery.com/jquery-2.2.2.min.js'></script>
+    <script type="text/javascript" src="scripts/script_common.js"></script>
+    <script type="text/javascript" src="scripts/javascript.js"></script>
+    <link rel="stylesheet" href="styles/common.css"/>
+    <link rel="stylesheet" href="styles/prof.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+    <title> KhrystynaBarchyshyn</title>
     <title>KhrystynaBarchyshyn </title>
 </head>
 
 <body>
-    <header>
-        <nav>
-        <nav>
-            <a href="index.html"><img src="images/logo.png" alt="List Picture"></a>
-            <ul type="none">
-                <li><a href="about.html">about</a></li>
-                <li><a href="professionalskills.html">professional skills</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-            <a href="https://facebook.com/profile.php?id=100011195025192&ref=bookmarks" target="_blank"><img src="images/facebook.png" alt="List Picture"></a>
-            <a href="https://github.com/KhrystynaBarchyshyn" target="_blank"><img src="images/github.png" alt="List Picture"></a>
-        </nav>
+    {{header}}
     <main>
-        <div>
-            <img src="images/professional_skills.jpg" alt="List Picture" width="700" height="400">
+        <div class="computer">
+            <img src="images/professional_skills.jpg" alt="List Picture">
             <h1>My Skill Sets</h1>
-            <button>Download Resume</button>
+            <a id="dwnl_resume" href="documents/KhrystynaBarchyshyn.pdf" download>Download Resume</a>
         </div>
         <div>
             <h2>Technologies</h2>
@@ -40,17 +39,9 @@
             <p>The heart of London is the City, its financial and business centre. Numerous banks, offices, and firms are situated there, including the Bank of England, the Stock Exchange, and the Old Bailey. Few people live here, but over a million people
                 come to the City to work.</p>
             <hr>
-            <button>Interested? Send me a message</button>
+            <a id="interested" href="contact.html">Interested? Send me a message</a>
         </div>
-        <footer>
-            <nav>
-                <ul type="none">
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="professionalskills.html">professional skills</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                </ul>
-            </nav>
-        </footer>
+        {{footer}}
     </main>
 </body>
 

@@ -1,0 +1,63 @@
+body {
+    background-color: #FFCCFF;
+}
+
+.computer img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+#dwnl_resume {
+    position: absolute;
+    left: 43%;
+    top: 60%;
+    background-color: rgba(128, 128, 128, 0.6);
+    font-size: 15px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    border-color: black;
+    border: 2px solid;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 1em 1.75em;
+    display: inline-block;
+    line-height: 1em;
+    margin: 10px 0;
+}
+
+#dwnl_resume:hover,
+#dwnl_resume:focus,
+#dwnl_resume:active {
+    transform: scale(1.1);
+}
+
+#interested {
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.6);
+    font-size: 13px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    border-color: black;
+    border: 1.5px solid;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 0.8em 0.8em;
+    display: block;
+    line-height: 1em;
+    margin:  30px auto 30px auto;
+    text-align: center;
+}
+
+#interested:hover,
+#interested:focus,
+#interested:active
+{
+    transform: scale(1.1);
+}
+}
