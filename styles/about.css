@@ -11,9 +11,13 @@ body {
 
 .about h1 {
     position: absolute; 
-    left: 125px; 
-    top: 125px;
+    font-size: 40px;
+    left: 42%; 
+    top: 40%;
     color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poiret One', serif;
 }
 
 .first_line {
@@ -26,3 +30,60 @@ body {
     text-align: center;
 }
     
+.facts h2 {
+    padding-top: 3%;
+    font-family: 'Poiret One', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.arrow_down {
+    margin: 0 auto;
+    width: 1.5em;
+    height: 1.5em;
+    border-right: 0.2em solid black;
+    border-bottom: 0.2em solid black;
+    transform: rotate(45deg);
+}
+
+.arrow_down:hover,
+.arrow_down:focus,
+.arrow_down:active 
+.arrow_down:rotate(45deg){
+
+}
+
+#my_life {
+    padding-top: 2%;
+    font-family: 'Poiret One', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#download {
+    width: 200px;
+    background-color: transparent;
+    font-size: 13px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    border-color: black;
+    border: 1.5px solid;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 1em 0.8em;
+    display: block;
+    line-height: 1em;
+    margin:  30px auto 30px auto;
+    text-align: center;
+}
+
+#download:hover,
+#download:focus,
+#download:active
+{
+    transform: scale(1.1);
+}

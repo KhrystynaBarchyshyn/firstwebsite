@@ -19,12 +19,26 @@ body {
 }
 
 .home h1 {
-    position: absolute; 
-    left: 125px; 
-    top: 125px;
     color: black;
+    position: absolute; 
+    left: 35%; 
+    top: 35%;
+    text-transform: uppercase;
+    font-family: 'Poiret One', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
+.home h2 {
+    color: black;
+    position: absolute; 
+    left: 40%; 
+    top: 48%;
+    text-transform: uppercase;
+    font-family: 'Poiret One', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 #contact_me {
     position: absolute;
     left: 44%;

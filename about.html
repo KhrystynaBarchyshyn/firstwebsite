@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <script src='//code.jquery.com/jquery-2.2.2.min.js'></script>
     <script type="text/javascript" src="scripts/script_common.js"></script>
+    <script type="text/javascript" src="scripts/javascript.js"></script>
     <link rel="stylesheet" href="styles/about.css"/>
     <link rel="stylesheet" href="styles/common.css"/>
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
@@ -21,14 +22,16 @@
             <h1>Who I Am</h1>
         </div>
         <div class="facts">
-            <h2>Facts</h2>
+            <h2>Some interesting Facts</h2>
+            <div class="arrow_down" onclick="scrollToPhotos();">
+            </div>
             <p>
                 The heart of London is the City, its financial and business centre. Numerous banks, offices, and firms are situated there, including the Bank of England, the Stock Exchange, and the Old Bailey. Few people live here, but over a million people come to the
                 City to work. There are some famous ancient buildings within the City. Perhaps the most striking of them is the St. Paul's Cathedral, the greatest of English churches.
             </p>
         </div>
         <div>
-            <h2>My Life</h2>
+            <h2 id="my_life">My Life</h2>
             <p>
                 The heart of London is the City, its financial and business centre. Numerous banks, offices, and firms are situated there, including the Bank of England, the Stock Exchange, and the Old Bailey. Few people live here, but over a million people come to the
                 City to work. There are some famous ancient buildings within the City. Perhaps the most striking of them is the St. Paul's Cathedral, the greatest of English churches
@@ -40,16 +43,16 @@
                     <img src="images/love.jpg" alt="List Picture" width="200" height="250">
                 </figure>
                 <figure class="second_line">
-                    <img src="images/sushi.jpg" alt="List Picture" width="200" height="250">
+                    <img src="images/more_2.jpg" alt="List Picture" width="200" height="250">
                     <img src="images/cocacola.jpg" alt="List Picture" width="200" height="250">
-                    <img src="images/delicious.jpg" alt="List Picture" width="200" height="250">
+                    <img src="images/party.jpg" alt="List Picture" width="200" height="250">
                 </figure>
                 <p>
                     The heart of London is the City, its financial and business centre. Numerous banks, offices, and firms are situated there, including the Bank of England, the Stock Exchange, and the Old Bailey. Few people live here, but over a million people come to the
                     City to work. There are some famous ancient buildings within the City. Perhaps the most striking of them is the St. Paul 's Cathedral, the greatest of English churches.
                 </p>
             </div>
-            <button>Download my Resume</button>
+            <a id="download" href="documents/KhrystynaBarchyshyn_CV.pdf" download>Download my Resume</a>
         </div>
         {{footer}}
     </main>

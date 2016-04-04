@@ -5,3 +5,10 @@ function scrollToPhoto() {
     return false;
 }
 
+
+function scrollToPhotos() {
+    $('html, body').animate({
+        scrollTop: $( '#my_life' ).offset().top
+    }, 800);
+    return false;
+}
