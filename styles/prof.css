@@ -2,31 +2,55 @@ body {
     background-color: #FFCCFF;
 }
 
-.computer img {
+.computer {
     position: relative;
+    padding:0;
+    width: 100%;
+}
+
+.computer img {
     max-width: 100%;
     height: auto;
     opacity: 0.8;
 }
 
+.computer h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 55%;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Poiret One', serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align:center;
+}
+
 #dwnl_resume {
     position: absolute;
-    left: 43%;
-    top: 60%;
+    left: 0;
+    right: 0;
+    top: 80%;
     background-color: rgba(128, 128, 128, 0.6);
-    font-size: 15px;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
     border-color: black;
     border: 2px solid;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     text-decoration: none;
     padding: 1em 1.75em;
     display: inline-block;
     line-height: 1em;
-    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #dwnl_resume:hover,
@@ -50,7 +74,7 @@ body {
     padding: 0.8em 0.8em;
     display: block;
     line-height: 1em;
-    margin:  30px auto 30px auto;
+    margin:  60px auto 50px auto;
     text-align: center;
 }
 
@@ -60,4 +84,111 @@ body {
 {
     transform: scale(1.1);
 }
+
+hr {
+    margin: 0 auto;
+    width: 70%;
 }
+
+.first_container {
+    padding-top: 5%;
+    margin: 0 auto;
+    width: 70%;
+    height: 200px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.second_container {
+    padding-top: 1%;
+    margin: 0 auto;
+    width: 70%;
+    height: 200px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.second_container p {
+    font-size: 15px;
+}
+
+.third_container {
+    padding-top: 1%;
+    margin: 0 auto;
+    width: 70%;
+    height: 200px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.third_container p {
+    font-size: 15px;
+}
+
+.techno {
+    float: left;
+    display: inline;
+    width: 40%;
+    padding-bottom: 1%;
+}
+
+.techno h2 {
+    font-size: 20px;
+}
+
+.experience {
+    float:left;
+    display: inline;
+    width: 40%;
+}
+
+.experience h2 {
+    font-size: 16px;
+}
+
+.experience ul li {
+    font-size: 14px;
+}
+.work_exp {
+    float: left;
+    display: inline;
+    width: 40%;
+    padding-bottom: 1%;
+}
+
+.work_exp h2 {
+    font-size: 20px;
+}
+
+.jobs {
+    float:left;
+    display: inline;
+    width: 40%;
+}
+
+.jobs h2{
+    font-size: 16px;
+}
+
+.jobs ul li {
+    font-size: 14px;
+}
+.education {
+    float: left;
+    display: inline;
+    width: 40%;
+    padding-bottom: 1%;
+    
+}
+
+.education h2 {
+    font-size: 20px;
+}
+
+.universities {
+    float:left;
+    display: inline;
+    width: 40%;
+}
+
+.universities h2 {
+    font-size: 16px;
+}
+
