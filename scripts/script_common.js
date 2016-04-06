@@ -20,6 +20,7 @@ $(document).ready(function() {
 
                 <nav>
                     <ul>
+                        <li><a href="index.html">home</a>
                         <li><a href="about.html">about</a></li>
                         <li><a href="professionalskills.html">professional skills</a></li>
                         <li><a href="contact.html">contact</a></li>

@@ -86,4 +86,31 @@ body {
 #download:active
 {
     transform: scale(1.1);
+
+}
+
+#download: hover {
+    background-color: red;
+    color: white;
+}
+
+.facts p {
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#above_photos {
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#below_photos {
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
 }
