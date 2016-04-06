@@ -3,21 +3,21 @@ body {
 }
 
 .about img {
-    position: relative;
     max-width: 100%;
     height: auto;
     opacity: 0.7;
 }
 
 .about h1 {
-    position: absolute; 
-    font-size: 40px;
-    left: 42%; 
-    top: 40%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 42%;
     color: black;
+    font-size: 40px;
     font-weight: bold;
-    text-transform: uppercase;
     font-family: 'Poiret One', serif;
+    text-transform: uppercase;
 }
 
 .first_line {
@@ -95,13 +95,6 @@ body {
 }
 
 .facts p {
-    font-family: 'Hind', sans-serif;
-    text-align: center;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-#above_photos {
     font-family: 'Hind', sans-serif;
     text-align: center;
     margin-right: 20%;

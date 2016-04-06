@@ -8,7 +8,7 @@ function scrollToPhoto() {
 
 function scrollToPhotos() {
     $('html, body').animate({
-        scrollTop: $( '#my_life' ).offset().top
+        scrollTop: $( '.facts h2' ).offset().top
     }, 800);
     return false;
 }
