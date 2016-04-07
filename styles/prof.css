@@ -1,5 +1,6 @@
 body {
-    background-color: #FFCCFF;
+    /*background-color: #FFCCFF;*/
+    background-color: #FFE4E1;
 }
 
 .computer {
@@ -74,7 +75,7 @@ body {
     padding: 0.8em 0.8em;
     display: block;
     line-height: 1em;
-    margin:  60px auto 50px auto;
+    margin:  30px auto 30px auto;
     text-align: center;
 }
 
