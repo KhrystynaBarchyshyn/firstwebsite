@@ -5,9 +5,6 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/common.css">
-    <script src='//code.jquery.com/jquery-2.2.2.min.js'></script>
-    <script type="text/javascript" src="scripts/javascript.js"></script>
-    <script type="text/javascript" src="scripts/script_common.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
@@ -26,7 +23,7 @@
         </div>
         <section class="main_info">
             <h2>Short Story about Myself</h2>
-            <div class="arrow_down" onclick="scrollToPhoto();">
+            <div class="arrow_down" onclick="scrollToId('#short_story');">
             </div>
             <p id="short_story">Hi, my name is Khrystyna Barchyshyn and I am beginner web developer.</p>
             <section>
@@ -36,6 +33,10 @@
         </section>
     </main>
     {{footer}}
+    <script src='//code.jquery.com/jquery-2.2.2.min.js'></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="scripts/javascript.js"></script>
+    <script type="text/javascript" src="scripts/script_common.js"></script>
 </body>
 
 </html>

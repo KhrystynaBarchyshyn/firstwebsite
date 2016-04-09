@@ -3,14 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <script src='//code.jquery.com/jquery-2.2.2.min.js'></script>
-    <script type="text/javascript" src="scripts/script_common.js"></script>
-    <script type="text/javascript" src="scripts/javascript.js"></script>
-    <link rel="stylesheet" href="styles/about.css"/>
-    <link rel="stylesheet" href="styles/common.css"/>
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/about.css"/>
+    <link rel="stylesheet" href="styles/common.css"/>
     <title> KhrystynaBarchyshyn</title>
 </head>
 
@@ -21,7 +18,7 @@
             <img src="images/about.jpg" alt="List Picture">
             <h1>Who I Am</h1>
         </div>
-        <div class="arrow_down" onclick="scrollToPhotos();">
+        <div class="arrow_down" onclick="scrollToId('.facts h2');">
         </div>
         <div class="facts">
             <h2>Some interesting Facts</h2>
@@ -54,6 +51,10 @@
         </div>
         {{footer}}
     </main>
+    <script src='//code.jquery.com/jquery-2.2.2.min.js'></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="scripts/javascript.js"></script>
+    <script type="text/javascript" src="scripts/script_common.js"></script>
 </body>
 
 </html>

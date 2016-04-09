@@ -53,4 +53,6 @@ function replaceFooter() {
 $(document).ready(function() {
     replaceHeader();
     replaceFooter();
+    $( "header" ).effect( "slide",  { direction: 'up'}, 600, function (){});
+        
 });
