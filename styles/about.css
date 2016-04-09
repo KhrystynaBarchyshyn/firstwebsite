@@ -24,6 +24,7 @@ body {
     font-weight: bold;
     font-family: 'Poiret One', serif;
     text-transform: uppercase;
+    letter-spacing: 4px;
     text-align:center;
 }
 
@@ -52,15 +53,8 @@ body {
     border-right: 0.2em solid black;
     border-bottom: 0.2em solid black;
     transform: rotate(45deg);
+    cursor: pointer;
 }
-
-.arrow_down:hover,
-.arrow_down:focus,
-.arrow_down:active 
-.arrow_down:rotate(45deg){
-
-}
-
 
 #my_life {
     padding-top: 2%;

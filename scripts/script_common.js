@@ -1,4 +1,4 @@
-$(document).ready(function() {
+function replaceHeader() {
     var bodyCode = document.body.innerHTML;
 
     var headerCode = String.raw `<header>
@@ -32,9 +32,9 @@ $(document).ready(function() {
 
     document.body.innerHTML = bodyCode.replace(/{{header}}/g, headerCode);
 
-});
+}
 
-$(document).ready(function() {
+function replaceFooter() {
     var body_Code = document.body.innerHTML;
     var footerCode = String.raw
 `<footer>
@@ -48,4 +48,9 @@ $(document).ready(function() {
         </nav>
    </footer>`
    document.body.innerHTML = body_Code.replace(/{{footer}}/g, footerCode);
+}
+
+$(document).ready(function() {
+    replaceHeader();
+    replaceFooter();
 });
