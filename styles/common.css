@@ -124,3 +124,13 @@ footer nav li a {
 footer nav li a:hover {
     color: grey;
 }
+
+#copyright {
+    text-align: center;
+    display: block;
+    padding-top: 2%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}

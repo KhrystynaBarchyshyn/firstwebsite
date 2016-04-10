@@ -45,6 +45,7 @@ function replaceFooter() {
                 <li><a href="professionalskills.html">professional skills</a></li>
                 <li><a href="contact.html">contact</a></li>
             </ul>
+            <p id="copyright"><small>2016 Khrystyna Barchyshyn</small></p>
         </nav>
    </footer>`
    document.body.innerHTML = body_Code.replace(/{{footer}}/g, footerCode);
