@@ -87,6 +87,10 @@ body {
     transform: scale(1.1);
 }
 
+.arrow_down:hover {
+    cursor: pointer;
+} 
+
 .main_info {
     position: relative;
 }
@@ -99,15 +103,37 @@ body {
     text-align: center;
 }
 
-.main_info p {
-    font-family: 'Hind', sans-serif;
-    text-align: center;
-    margin-right: 20%;
-    margin-left: 20%;
+.main_part {
+    padding-top: 5%;
+    margin: 0 auto;
+    width: 70%;
+    height: 430px;
 }
 
-#main_photo {
-    margin:0 auto;
+.paragraph {
+    width: 45%;
+    display:inline-block;
+}
+
+#short_story {
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    float: right;
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 16%;
+}
+
+.main_photo {
+    float: right;
+    display:inline-block;
+    width: 50%;
+    padding-bottom: 1%;
+}
+
+.main_photo img {
+    margin: 0 auto;
     display: block;
     opacity: 10;
     border-radius: 10%;
@@ -128,7 +154,7 @@ body {
     padding: 1em 0.8em;
     display: block;
     line-height: 1em;
-    margin:  30px auto 30px auto;
+    margin:  30px auto 55px auto;
     text-align: center;
 }
 

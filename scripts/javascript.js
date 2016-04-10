@@ -23,3 +23,11 @@ $(document).ready(function() {
     });    
 });
 
+
+// $(window).scroll(function() {
+//     if ($(this).scrollTop() > 100 && !$(".main_photo").is(":visible") ) {
+//         $( ".main_photo" ).effect( "slide",  { direction: 'left'}, 600, function (){});
+//         $( ".paragraph" ).effect( "slide",  { direction: 'left'}, 600, function (){});
+//     }
+//     else{}
+// });
