@@ -66,12 +66,16 @@ body {
   font-size: 14px;
 }
 
+
 .submit_form {
     float: left;
     display: inline;
     width: 50%;
     padding-bottom: 1%;
+    font-family: 'Poiret One', serif;
+    font-size: 12px;
 }
+
 
 ::-webkit-input-placeholder {
    color: grey;

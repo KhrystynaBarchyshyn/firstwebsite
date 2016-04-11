@@ -17,7 +17,7 @@ $(document).ready(function() {
             },
             dataType: "json"
         }).done(function() {
-            $('.submit_form').html('<h1>Thank you for your messsage. I will come back to you shortly!</h1>')
+            $('.submit_form').html('<h1>Thank you for your message. I will come back to you shortly!</h1>')
         });
         return false;
     });    
